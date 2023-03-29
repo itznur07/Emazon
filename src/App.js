@@ -1,5 +1,13 @@
-function App() {
-  return <div className='App'>Ema-zon</div>;
-}
+import Header from "./components/Header";
+import Shop from "./components/Shop";
+
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Shop />
+    </>
+  );
+};
 
 export default App;
